@@ -3,10 +3,13 @@ public class Mahasiswa {
     private String nama;
     private String jenisKelamin;
 
-    public Mahasiswa(String nim, String nama, String jenisKelamin) {
+    private boolean is_lunas_ukt;
+
+    public Mahasiswa(String nim, String nama, String jenisKelamin, boolean is_lunas_ukt) {
         this.nim = nim;
         this.nama = nama;
         this.jenisKelamin = jenisKelamin;
+        this.is_lunas_ukt = is_lunas_ukt;
     }
 
     public void setNim(String nim) {
@@ -31,5 +34,13 @@ public class Mahasiswa {
 
     public String getJenisKelamin() {
         return this.jenisKelamin;
+    }
+
+    public boolean isIs_lunas_ukt() {
+        return is_lunas_ukt;
+    }
+
+    public void setIs_lunas_ukt(boolean is_lunas_ukt) {
+        this.is_lunas_ukt = is_lunas_ukt;
     }
 }
