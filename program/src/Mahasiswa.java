@@ -1,3 +1,6 @@
+/*Saya Muhammad Muhammad Fadlul Hafiizh [2209889] mengerjakan soal latprak_5 dalam mata kuliah DPBO.
+untuk keberkahanNya maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan, Aamiin */
+
 public class Mahasiswa {
     private String nim;
     private String nama;
